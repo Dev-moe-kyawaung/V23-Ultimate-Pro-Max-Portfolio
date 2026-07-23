@@ -1,0 +1,93 @@
+# 👑 V23 MAX ULTIMATE - Git Ignore
+# The Greatest Portfolio Ever Created
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Windows
+*.dll
+*.exe
+*.msi
+*.cab
+
+# Linux
+*.deb
+*.rpm
+*.so
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+*.sublime-settings
+*.komodoproject
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build files
+dist/
+build/
+.cache/
+*.tsbuildinfo
+*.map
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.staging
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+
+# Backup files
+*.bak
+*.backup
+*~
+*.orig
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*.gz
+
+# Private/Test files
+private/
+test/
+tests/
+_old/
+deprecated/
+
