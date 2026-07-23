@@ -1,0 +1,192 @@
+# 👑 V23 MAX ULTIMATE - Robots.txt
+# The Greatest Portfolio Ever Created
+# https://dev-moe-kyawaung.github.io/robots.txt
+
+# ===== MASTER RULES =====
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /test/
+Disallow: /dev/
+Disallow: /temp/
+Disallow: /backup/
+
+# ===== SITEMAPS =====
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap.xml
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap-google.xml
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap-microsoft.xml
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap-cloudflare.xml
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap-yandex.xml
+
+# ===== CRAWL DELAY =====
+Crawl-delay: 5
+
+# ===== GOOGLE =====
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Googlebot-Image
+Allow: /
+Crawl-delay: 5
+
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 2
+
+User-agent: Googlebot-Video
+Allow: /
+Crawl-delay: 5
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+# ===== MICROSOFT / BING =====
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: MSNBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: BingPreview
+Allow: /
+
+User-agent: msnbot
+Allow: /
+Crawl-delay: 5
+
+User-agent: msnbot-media
+Allow: /
+
+User-agent: adidxbot
+Allow: /
+
+# ===== YAHOO =====
+User-agent: Slurp
+Allow: /
+Crawl-delay: 10
+
+# ===== DUCKDUCKGO =====
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 10
+
+# ===== YANDEX =====
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: YandexImages
+Allow: /
+
+User-agent: YandexVideo
+Allow: /
+
+User-agent: YandexBlogs
+Allow: /
+
+User-agent: YandexMetrika
+Allow: /
+
+User-agent: YandexNews
+Allow: /
+
+# ===== BAIDU =====
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 10
+
+User-agent: Baiduspider-image
+Allow: /
+
+User-agent: Baiduspider-video
+Allow: /
+
+User-agent: Baiduspider-news
+Allow: /
+
+# ===== SOGOU =====
+User-agent: Sogou
+Allow: /
+Crawl-delay: 10
+
+User-agent: Sogou web spider
+Allow: /
+
+# ===== OTHER SEARCH ENGINES =====
+User-agent: Applebot
+Allow: /
+
+User-agent: Facebookbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: SkypeUriPreview
+Allow: /
+
+User-agent: Cloudflare-AMP
+Allow: /
+
+# ===== BLOCK BAD BOTS =====
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: PiplBot
+Disallow: /
+
+User-agent: SEOkicks
+Disallow: /
+
+User-agent: ZoominfoBot
+Disallow: /
+
+User-agent: NetcraftSurveyAgent
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+# ===== GENERATED =====
+# Date: 2026-01-15
+# Contact: moekyawaung@programmer.net
+# Version: 23.0.0 MAX ULTIMATE
